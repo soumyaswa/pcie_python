@@ -1,7 +1,7 @@
 import random
 from base_pkt import pkt_base
 
-print("hello base_pkt")
+print("default_base_pkt")
 
 class default_base_pkt(pkt_base):
     def __init__(self):

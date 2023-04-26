@@ -1,7 +1,7 @@
 import random
 from default_base_class import *
 
-print("hello default_base_class")
+print("cfg0_pkt")
 
 class cfg0_pkt(default_base_pkt):
     def __init__(self):
