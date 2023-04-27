@@ -20,6 +20,7 @@ class cfg0_pkt(default_base_pkt):
         pkt_dict["ep"] =  self.ep 
         pkt_dict["td"] =  self.td
         print(pkt_dict)
+        write_to_file('cfg0_pkt BDF = {}, config type {} for {}, {}, pkt is {}, ECRC is {}'.format(self.bdf, self.conf_type, "Switch" if self.conf_type else "end-point", "Blocking" if self.block else "Non-blocking", "Poisoned" if self.ep else "Not poisoned", "Enabled" if self.td else "Disabled"))
        
     def print_new_bdf(self):
         print('cfg0_pkt BDF = {}, config type {} for {}, {}, pkt is {}, ECRC is {}'.format(self.bdf, self.conf_type, "Switch" if self.conf_type else "end-point", "Blocking" if self.block else "Non-blocking", "Poisoned" if self.ep else "Not poisoned", "Enabled" if self.td else "Disabled"))

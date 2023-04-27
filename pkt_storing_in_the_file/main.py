@@ -17,13 +17,13 @@ with open(filename, 'w') as f:
         if not c1.checker_fn():
             print('Packet failed the checker!')
            # print('checker_fn BDF = {}, config type {} for {}, {}, pkt is {}, ECRC is {}'.format(bdf, conf_type, "Switch" if conf_type else "end-point", "Blocking" if block else "Non-blocking", "Poisoned" if ep else "Not poisoned", "Enabled" if td else "Disabled"))
-            #inval_pkt += 1
+            inval_pkt += 1
             inval_pkt_num.append(i)
             f.write('Packet failed the checker!\n')
         else:
             print('Packet passed the checker!')
             #print('checker_fn BDF = {}, config type {} for {}, {}, pkt is {}, ECRC is {}'.format(bdf, conf_type, "Switch" if conf_type else "end-point", "Blocking" if block else "Non-blocking", "Poisoned" if ep else "Not poisoned", "Enabled" if td else "Disabled"))
-            #val_pkt += 1
+            val_pkt += 1
             val_pkt_num.append(i)
             f.write('Packet passed the checker!\n')
 
