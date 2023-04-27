@@ -1,0 +1,14 @@
+Packet passed the checker!
+Packet failed the checker!
+Packet passed the checker!
+Packet passed the checker!
+Packet passed the checker!
+Packet passed the checker!
+Packet passed the checker!
+Packet passed the checker!
+Packet passed the checker!
+Packet failed the checker!
+number of invalid packets are 0
+number of valid packets are 0
+invalid packet numbers are [1, 9]
+valid packet numbers are [0, 2, 3, 4, 5, 6, 7, 8]

@@ -1,0 +1,23 @@
+Packet results:
+Packet 0: Passed
+{"bdf": 13, "conf_type": 1, "block": 1, "ep": 0, "td": 1, "result": "Passed"}
+Packet 1: Failed
+{"bdf": 257, "conf_type": 0, "block": 1, "ep": 1, "td": 1, "result": "Failed"}
+Packet 2: Failed
+{"bdf": 466, "conf_type": 0, "block": 1, "ep": 0, "td": 0, "result": "Failed"}
+Packet 3: Failed
+{"bdf": 338, "conf_type": 1, "block": 1, "ep": 0, "td": 1, "result": "Failed"}
+Packet 4: Passed
+{"bdf": 191, "conf_type": 0, "block": 1, "ep": 1, "td": 1, "result": "Passed"}
+Packet 5: Passed
+{"bdf": 174, "conf_type": 0, "block": 1, "ep": 0, "td": 1, "result": "Passed"}
+Packet 6: Passed
+{"bdf": 249, "conf_type": 1, "block": 1, "ep": 1, "td": 1, "result": "Passed"}
+Packet 7: Passed
+{"bdf": 42, "conf_type": 0, "block": 1, "ep": 0, "td": 1, "result": "Passed"}
+Packet 8: Failed
+{"bdf": 276, "conf_type": 1, "block": 1, "ep": 1, "td": 0, "result": "Failed"}
+Packet 9: Passed
+{"bdf": 222, "conf_type": 1, "block": 1, "ep": 0, "td": 0, "result": "Passed"}
+Invalid packets: [1, 2, 3, 8]
+Valid packets: [0, 4, 5, 6, 7, 9]
