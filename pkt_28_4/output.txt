@@ -1,0 +1,36 @@
+Packet passed the checker!
+Generated packet 0 dictionary: {'bdf': 5, 'conf_type': 0, 'block': 1, 'ep': 1, 'td': 0}
+Checked packet 0 dictionary: {'bdf': 5, 'conf_type': 0, 'block': 1, 'ep': 1, 'td': 0}
+Packet passed the checker!
+Generated packet 1 dictionary: {'bdf': 69, 'conf_type': 1, 'block': 1, 'ep': 0, 'td': 0}
+Checked packet 1 dictionary: {'bdf': 69, 'conf_type': 1, 'block': 1, 'ep': 0, 'td': 0}
+Packet passed the checker!
+Generated packet 2 dictionary: {'bdf': 67, 'conf_type': 1, 'block': 1, 'ep': 0, 'td': 1}
+Checked packet 2 dictionary: {'bdf': 67, 'conf_type': 1, 'block': 1, 'ep': 0, 'td': 1}
+Packet passed the checker!
+Generated packet 3 dictionary: {'bdf': 114, 'conf_type': 1, 'block': 1, 'ep': 1, 'td': 0}
+Checked packet 3 dictionary: {'bdf': 114, 'conf_type': 1, 'block': 1, 'ep': 1, 'td': 0}
+Packet failed the checker!
+Generated packet 4 dictionary: {'bdf': 262, 'conf_type': 0, 'block': 1, 'ep': 1, 'td': 0}
+Checked packet 4 dictionary: {'bdf': 262, 'conf_type': 0, 'block': 1, 'ep': 1, 'td': 0}
+Packet failed the checker!
+Generated packet 5 dictionary: {'bdf': 501, 'conf_type': 1, 'block': 1, 'ep': 0, 'td': 1}
+Checked packet 5 dictionary: {'bdf': 501, 'conf_type': 1, 'block': 1, 'ep': 0, 'td': 1}
+Packet failed the checker!
+Generated packet 6 dictionary: {'bdf': 294, 'conf_type': 0, 'block': 1, 'ep': 0, 'td': 1}
+Checked packet 6 dictionary: {'bdf': 294, 'conf_type': 0, 'block': 1, 'ep': 0, 'td': 1}
+Packet failed the checker!
+Generated packet 7 dictionary: {'bdf': 413, 'conf_type': 1, 'block': 1, 'ep': 1, 'td': 0}
+Checked packet 7 dictionary: {'bdf': 413, 'conf_type': 1, 'block': 1, 'ep': 1, 'td': 0}
+Packet failed the checker!
+Generated packet 8 dictionary: {'bdf': 397, 'conf_type': 1, 'block': 1, 'ep': 0, 'td': 1}
+Checked packet 8 dictionary: {'bdf': 397, 'conf_type': 1, 'block': 1, 'ep': 0, 'td': 1}
+Packet failed the checker!
+Generated packet 9 dictionary: {'bdf': 285, 'conf_type': 0, 'block': 1, 'ep': 1, 'td': 0}
+Checked packet 9 dictionary: {'bdf': 285, 'conf_type': 0, 'block': 1, 'ep': 1, 'td': 0}
+Number of invalid packets: 6
+Number of valid packets: 4
+Invalid packet numbers: [4, 5, 6, 7, 8, 9]
+Valid packet numbers: [0, 1, 2, 3]
+: 285
+Packet is poisoned, value: 1 : Discarding the packet
